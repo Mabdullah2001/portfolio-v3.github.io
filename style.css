@@ -1,3 +1,154 @@
-.body{
-    background-color: aquamarine;
+@font-face {
+    font-family: 'CustomHeading';
+    src: url('./font/AltoneTrial-Bold.ttf');               /* Legacy iOS */
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    /* background-color: rgba(240, 255, 255, 0.185); */
+    background-color: transparent;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: auto 100px;
+    
+}
+
+.container div {
+    width: 50%;
+}
+
+.content h1 {
+    font-family: 'CustomHeading';
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.content h1 span {
+    color: #4071f4;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.content a.btn {
+    background-color: #4071f4;
+    /* opacity: 0.5; */
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+
+
+}
+
+body {
+    text-align: left;
+}
+
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto 100px;
+
+}
+
+.left p span {
+    color: #4071f4;
+    font-weight: bolder;
+    font-size: 1em;
+    opacity: 0.5;
+
+}
+
+.left {
+
+
+    font-size: 25px;
+    width: 600px;
+    text-align: -webkit-auto;
+    font-family: sans-serif;
+
+}
+
+.head {
+    color: #4071f4;
+    font-weight: bolder;
+    font-size: 1em;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.circular--square {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.picture {
+    text-align: center;
+}
+
+.picture img {
+    width: 60%;
+}
+
+.Main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    
+}
+.right{
+    display: flex;
+    background-color:rgb(190, 216, 251, .5);
+    width: 35%;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.abouttext{
+    background-color:rgb(190, 216, 251, .5);
+    width: 60%;
+    height: 70vh;
+    position: relative;
+    padding: 10px;
+}
+.right img{
+    width: 100%;
+}
+
+.abouttext{
+    display: grid;
+    align-items: center;
+}
+
+.text h4 {
+    position: absolute ;
+    top: 0;
+    font-size: larger;
+}
+.text{
+    font-size: 2em;
 }
