@@ -1,13 +1,22 @@
 @font-face {
     font-family: 'CustomHeading';
-    src: url('./font/AltoneTrial-Bold.ttf');               /* Legacy iOS */
+    src: url('./font/AltoneTrial-Bold.ttf');
 }
-*{
+
+html {
+    font-family: 'CustomHeading';
+    src: url('./font/AltoneTrial-Bold.ttf');
+
+}
+
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
+
 body {
     /* background-color: rgba(240, 255, 255, 0.185); */
     background-color: transparent;
@@ -18,7 +27,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: auto 100px;
-    
+
 }
 
 .container div {
@@ -110,45 +119,123 @@ body {
     width: 60%;
 }
 
-.Main{
+.Main {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     margin: auto;
     height: 100vh;
-    
+
 }
-.right{
+
+.right {
     display: flex;
-    background-color:rgb(190, 216, 251, .5);
+    background-color: rgb(190, 216, 251, .5);
     width: 35%;
     height: 70vh;
     align-items: center;
     justify-content: center;
 
 }
-.abouttext{
-    background-color:rgb(190, 216, 251, .5);
+
+.abouttext {
+    background-color: rgb(190, 216, 251, .5);
     width: 60%;
     height: 70vh;
     position: relative;
     padding: 10px;
 }
-.right img{
+
+.right img {
     width: 100%;
 }
 
-.abouttext{
+.abouttext {
     display: grid;
     align-items: center;
 }
 
 .text h4 {
-    position: absolute ;
+    position: absolute;
     top: 0;
     font-size: larger;
 }
-.text{
-    font-size: 2em;
+
+.text {
+    font-size: 29px;
+}
+
+@media (max-width:600px) {
+    .container {
+        margin: 0;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .container div {
+        width: 100%;
+    }
+
+    .content {
+        height: 40vh;
+        order: 2;
+    }
+
+    .content h1 {
+        font-size: 3em;
+    }
+
+    .picture {
+        height: 40vh;
+        order: 1;
+        ;
+    }
+
+    a.btn.btn-primary {
+        margin-top: 20px !important;
+    }
+
+    .Main {
+        margin: 0;
+        display: block;
+        align-items: center;
+        text-align: center;
+        width: auto;
+        overflow: hidden;
+        height: 100vh;
+        background-color: rgb(190, 216, 251, .5);
+
+    }
+
+    .text {
+        text-align: center;
+        font-size: 1em;
+        width: auto;
+        height: auto;
+
+    }
+
+    .abouttext {
+        width: auto;
+        background-color: transparent;
+        height: auto;
+    }
+
+    .abouttext text {
+        align-items: center;
+    }
+
+    .abouttext .text h4 {
+        position: initial;
+    }
+
+    .right {
+        background-color: transparent;
+        width: auto;
+        height: auto;
+    }
 }
