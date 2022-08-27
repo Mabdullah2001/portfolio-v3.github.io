@@ -52,13 +52,27 @@ a {
 .content a.btn {
     background-color: #4071f4;
     /* opacity: 0.5; */
-    color: white;
+    color: blue;
     padding: 10px 20px;
     margin-right: 10px;
     border-radius: 5px;
-
-
+    cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:#4071f4 ;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+    
 }
+.content a.btn:hover {background-color: blue}
+
+.content a.btn:active {
+  background-color:  white;
+  box-shadow: 0 5px blue;
+  transform: translateY(4px);
+}
+
 
 body {
     text-align: left;
@@ -181,7 +195,7 @@ body {
     }
 
     .content {
-        height: 40vh;
+        height: 55vh;
         order: 2;
     }
 
