@@ -210,7 +210,7 @@ body {
     }
 
     a.btn.btn-primary {
-        margin-top: 20px !important;
+        margin-top: 10px !important;
     }
 
     .Main {
@@ -252,4 +252,8 @@ body {
         width: auto;
         height: auto;
     }
+}
+.content a.btn{
+    margin-top: 10px;
+    align-items: flex-start;
 }
