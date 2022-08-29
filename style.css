@@ -26,7 +26,7 @@ body {
     display: flex;
     align-items: center;
     height: 100vh;
-    margin: auto 100px;
+    margin: auto 6.25em;
 
 }
 
@@ -53,16 +53,16 @@ a {
     background-color: #4071f4;
     /* opacity: 0.5; */
     color: blue;
-    padding: 10px 20px;
-    margin-right: 10px;
-    border-radius: 5px;
+    padding: 0.6rem 1.25em;
+    margin-right: 0.6rem;
+    border-radius: .3em;
     cursor: pointer;
     outline: none;
     color: #fff;
     background-color: #4071f4;
     border: none;
-    border-radius: 15px;
-    /* box-shadow: 0 9px #999; */
+    border-radius: 1.3em;
+    transition: 1s ease-in;
 
 }
 
@@ -72,8 +72,8 @@ a {
 
 .content a.btn:active {
     background-color: white;
-    box-shadow: 0 5px blue;
-    transform: translateY(4px);
+    box-shadow: 0 .3em blue;
+    transform: translateY(.25em);
 }
 
 
@@ -88,7 +88,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: auto 100px;
+    margin: auto 6em;
 
 }
 
@@ -103,8 +103,8 @@ body {
 .left {
 
 
-    font-size: 25px;
-    width: 600px;
+    font-size: 2.3em;
+    width: 37.5em;
     text-align: -webkit-auto;
     font-family: sans-serif;
 
@@ -143,7 +143,7 @@ body {
     width: 80%;
     margin: auto;
     height: 100vh;
-    border-radius: 40px;
+    border-radius: 2.5em;
 }
 
 .right {
@@ -151,7 +151,7 @@ body {
     /* background-color: rgb(190, 216, 251, .5); */
     width: 35%;
     /* height: 51vh; */
-    border-radius: 10px;
+    border-radius: 0.6rem;
     align-items: end;
     justify-content: center;
 
@@ -162,8 +162,8 @@ body {
     width: 60%;
     /* height: 70vh; */
     position: relative;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 2rem;
+    border-radius: 0.6rem;
 }
 
 .right img {
@@ -215,7 +215,7 @@ body {
     }
 
     a.btn.btn-primary {
-        margin-top: 10px !important;
+        margin-top: 0.6rem !important;
     }
 
     .Main {
@@ -258,7 +258,7 @@ body {
 }
 
 .content a.btn {
-    margin-top: 10px;
+    margin-top: 0.6rem;
     align-items: flex-start;
 }
 
@@ -280,8 +280,8 @@ body {
     width: 100%;
     background-color: white;
     font-family: Arial, sans-serif;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    margin-bottom: 0.6rem;
+    border-radius: 0.6rem;
 
     
 }
@@ -289,33 +289,33 @@ body {
 .skill-value {
     text-align: right;
     color: white;
-    border-radius: 10px;
+    border-radius: 0.6rem;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    padding-right: 10px;
+    padding-right: 0.6rem;
 
 
 }
 
 .html {
-    width: 90%;
+    width: 60%;
     background-color: #365E7D;
     
 
 }
 
 .js {
-    width: 70%;
+    width: 60%;
     background-color: #365E7D;
 }
 
 .python {
-    width: 55%;
+    width: 95%;
     background-color: #365E7D;
 }
 
 .vba {
-    width: 70%;
+    width: 90%;
     background-color: #365E7D;
 }
 
@@ -330,7 +330,7 @@ body {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
     .Main {
     }
   }
