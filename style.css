@@ -57,20 +57,23 @@ a {
     margin-right: 10px;
     border-radius: 5px;
     cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color:#4071f4 ;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-    
+    outline: none;
+    color: #fff;
+    background-color: #4071f4;
+    border: none;
+    border-radius: 15px;
+    /* box-shadow: 0 9px #999; */
+
 }
-.content a.btn:hover {background-color: blue}
+
+.content a.btn:hover {
+    background-color: blue
+}
 
 .content a.btn:active {
-  background-color:  white;
-  box-shadow: 0 5px blue;
-  transform: translateY(4px);
+    background-color: white;
+    box-shadow: 0 5px blue;
+    transform: translateY(4px);
 }
 
 
@@ -140,15 +143,16 @@ body {
     width: 80%;
     margin: auto;
     height: 100vh;
-
+    border-radius: 40px;
 }
 
 .right {
     display: flex;
-    background-color: rgb(190, 216, 251, .5);
+    /* background-color: rgb(190, 216, 251, .5); */
     width: 35%;
-    height: 70vh;
-    align-items: center;
+    /* height: 51vh; */
+    border-radius: 10px;
+    align-items: end;
     justify-content: center;
 
 }
@@ -156,19 +160,20 @@ body {
 .abouttext {
     background-color: rgb(190, 216, 251, .5);
     width: 60%;
-    height: 70vh;
+    /* height: 70vh; */
     position: relative;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .right img {
-    width: 100%;
+    width: 80%;
 }
 
-.abouttext {
+/* .abouttext {
     display: grid;
-    align-items: center;
-}
+    align-items: center; 
+} */
 
 .text h4 {
     position: absolute;
@@ -176,18 +181,18 @@ body {
     font-size: larger;
 }
 
-.text {
-    font-size: 29px;
+.text p {
+    font-weight: 300;
 }
 
-@media (max-width:600px) {
+@media (max-width:767px) {
     .container {
         margin: 0;
         display: grid;
         align-items: center;
         text-align: center;
         width: 100%;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     .container div {
@@ -219,10 +224,8 @@ body {
         align-items: center;
         text-align: center;
         width: auto;
-        overflow: hidden;
-        height: 100vh;
-        background-color: rgb(190, 216, 251, .5);
 
+        height: 100vh;
     }
 
     .text {
@@ -253,7 +256,81 @@ body {
         height: auto;
     }
 }
-.content a.btn{
+
+.content a.btn {
     margin-top: 10px;
     align-items: flex-start;
 }
+
+
+
+
+
+
+/* Skills Style */
+.skill-group {
+    width: 100%;
+}
+
+.skill-group>p {
+    color: #000
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+    
+}
+
+.skill-value {
+    text-align: right;
+    color: white;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-right: 10px;
+
+
+}
+
+.html {
+    width: 90%;
+    background-color: #365E7D;
+    
+
+}
+
+.js {
+    width: 70%;
+    background-color: #365E7D;
+}
+
+.python {
+    width: 55%;
+    background-color: #365E7D;
+}
+
+.vba {
+    width: 70%;
+    background-color: #365E7D;
+}
+
+.office {
+    width: 70%;
+    background-color: hsl(12, 100%, 50%);
+}
+
+.acrobat {
+    width: 60%;
+    background-color: hsl(12, 100%, 50%);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Main {
+    }
+  }
