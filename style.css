@@ -6,8 +6,9 @@
 html {
     font-family: 'CustomHeading';
     src: url('./font/AltoneTrial-Bold.ttf');
-    font-size: 62.5%; /* 1 rem = 10px */
-
+    font-size: 62.5%;
+    /* 1 rem = 10px */
+    font-size: 7rem;
 }
 
 * {
@@ -26,7 +27,7 @@ body {
     display: flex;
     align-items: center;
     height: 100vh;
-    margin: auto 6.25em;
+    margin: auto 6.25rem;
 
 }
 
@@ -36,7 +37,7 @@ body {
 
 .content h1 {
     font-family: 'CustomHeading';
-    font-size: 4em;
+    font-size: 7rem;
     font-weight: bold;
 }
 
@@ -53,15 +54,15 @@ a {
     background-color: #4071f4;
     /* opacity: 0.5; */
     color: blue;
-    padding: 1em 1.25em;
+    padding: 1em 1.5rem;
     margin-right: 0.6rem;
-    border-radius: .3em;
+    border-radius: .3rem;
     cursor: pointer;
     outline: none;
     color: #fff;
     background-color: #4071f4;
     border: none;
-    border-radius: 1.3em;
+    border-radius: 1.3rem;
     transition: 1s ease-in;
 
 }
@@ -72,7 +73,7 @@ a {
 
 .content a.btn:active {
     background-color: white;
-    box-shadow: 0 .3em blue;
+    box-shadow: 0 .3rem blue;
     transform: translateY(.25em);
 }
 
@@ -88,14 +89,14 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: auto 6em;
+    margin: auto 6rem;
 
 }
 
 .left p span {
     color: #4071f4;
     font-weight: bolder;
-    font-size: 1em;
+    font-size: 1rem;
     opacity: 0.5;
 
 }
@@ -103,8 +104,8 @@ body {
 .left {
 
 
-    font-size: 2.3em;
-    width: 37.5em;
+    font-size: 2.3rem;
+    width: 37.5rem;
     text-align: -webkit-auto;
     font-family: sans-serif;
 
@@ -113,7 +114,7 @@ body {
 .head {
     color: #4071f4;
     font-weight: bolder;
-    font-size: 1em;
+    font-size: 1rem;
     opacity: 0.5;
     position: absolute;
     top: 0;
@@ -143,7 +144,7 @@ body {
     width: 80%;
     margin: auto;
     height: 100vh;
-    border-radius: 2.5em;
+    border-radius: 2.5rem;
 }
 
 .right {
@@ -205,7 +206,7 @@ body {
     }
 
     .content h1 {
-        font-size: 4em;
+        font-size: 5rem;
     }
 
     .picture {
@@ -230,7 +231,7 @@ body {
 
     .text {
         text-align: center;
-        font-size: 1em;
+        font-size: 1rem;
         width: auto;
         height: auto;
 
@@ -263,10 +264,6 @@ body {
 }
 
 
-
-
-
-
 /* Skills Style */
 .skill-group {
     width: 100%;
@@ -283,7 +280,7 @@ body {
     margin-bottom: 0.6rem;
     border-radius: 0.6rem;
 
-    
+
 }
 
 .skill-value {
@@ -300,7 +297,7 @@ body {
 .html {
     width: 90% !important;
     background-color: #365E7D;
-    
+
 
 }
 
@@ -330,7 +327,6 @@ body {
 }
 
 
-@media only screen and (max-width: 37.5em) {
-    .Main {
-    }
-  }
+/* @media only screen and (max-width: 37.5rem) {
+    .Main {}
+} */
