@@ -6,10 +6,9 @@
 html {
     font-family: 'CustomHeading';
     src: url('./font/AltoneTrial-Bold.ttf');
-    font-size: 62.5%;
-    /* 1 rem = 10px */
-    font-size: 7rem;
+
 }
+
 
 * {
     padding: 0;
@@ -27,7 +26,7 @@ body {
     display: flex;
     align-items: center;
     height: 100vh;
-    margin: auto 6.25rem;
+    margin: auto 100px;
 
 }
 
@@ -37,7 +36,7 @@ body {
 
 .content h1 {
     font-family: 'CustomHeading';
-    font-size: 7rem;
+    font-size: 4em;
     font-weight: bold;
 }
 
@@ -54,16 +53,16 @@ a {
     background-color: #4071f4;
     /* opacity: 0.5; */
     color: blue;
-    padding: 1em 1.5rem;
-    margin-right: 0.6rem;
-    border-radius: .3rem;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
     cursor: pointer;
     outline: none;
     color: #fff;
     background-color: #4071f4;
     border: none;
-    border-radius: 1.3rem;
-    transition: 1s ease-in;
+    border-radius: 15px;
+    /* box-shadow: 0 9px #999; */
 
 }
 
@@ -73,8 +72,8 @@ a {
 
 .content a.btn:active {
     background-color: white;
-    box-shadow: 0 .3rem blue;
-    transform: translateY(.25em);
+    box-shadow: 0 5px blue;
+    transform: translateY(4px);
 }
 
 
@@ -89,14 +88,14 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: auto 6rem;
+    margin: auto 100px;
 
 }
 
 .left p span {
     color: #4071f4;
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: 1em;
     opacity: 0.5;
 
 }
@@ -104,8 +103,8 @@ body {
 .left {
 
 
-    font-size: 2.3rem;
-    width: 37.5rem;
+    font-size: 25px;
+    width: 600px;
     text-align: -webkit-auto;
     font-family: sans-serif;
 
@@ -114,7 +113,7 @@ body {
 .head {
     color: #4071f4;
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: 1em;
     opacity: 0.5;
     position: absolute;
     top: 0;
@@ -144,7 +143,7 @@ body {
     width: 80%;
     margin: auto;
     height: 100vh;
-    border-radius: 2.5rem;
+    border-radius: 40px;
 }
 
 .right {
@@ -152,7 +151,7 @@ body {
     /* background-color: rgb(190, 216, 251, .5); */
     width: 35%;
     /* height: 51vh; */
-    border-radius: 0.6rem;
+    border-radius: 10px;
     align-items: end;
     justify-content: center;
 
@@ -163,8 +162,8 @@ body {
     width: 60%;
     /* height: 70vh; */
     position: relative;
-    padding: 2rem;
-    border-radius: 0.6rem;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .right img {
@@ -206,7 +205,7 @@ body {
     }
 
     .content h1 {
-        font-size: 5rem;
+        font-size: 3em;
     }
 
     .picture {
@@ -216,7 +215,7 @@ body {
     }
 
     a.btn.btn-primary {
-        margin-top: 0.6rem !important;
+        margin-top: 10px !important;
     }
 
     .Main {
@@ -231,7 +230,7 @@ body {
 
     .text {
         text-align: center;
-        font-size: 1rem;
+        font-size: 1em;
         width: auto;
         height: auto;
 
@@ -259,9 +258,13 @@ body {
 }
 
 .content a.btn {
-    margin-top: 0.6rem;
+    margin-top: 10px;
     align-items: flex-start;
 }
+
+
+
+
 
 
 /* Skills Style */
@@ -277,42 +280,42 @@ body {
     width: 100%;
     background-color: white;
     font-family: Arial, sans-serif;
-    margin-bottom: 0.6rem;
-    border-radius: 0.6rem;
+    margin-bottom: 10px;
+    border-radius: 10px;
 
-
+    
 }
 
 .skill-value {
     text-align: right;
     color: white;
-    border-radius: 0.6rem;
+    border-radius: 10px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    padding-right: 0.6rem;
+    padding-right: 10px;
 
 
 }
 
 .html {
-    width: 90% !important;
+    width: 90%;
     background-color: #365E7D;
-
+    
 
 }
 
 .js {
-    width: 80%;
+    width: 70%;
     background-color: #365E7D;
 }
 
 .python {
-    width: 95%;
+    width: 55%;
     background-color: #365E7D;
 }
 
 .vba {
-    width: 90%;
+    width: 70%;
     background-color: #365E7D;
 }
 
@@ -327,6 +330,7 @@ body {
 }
 
 
-/* @media only screen and (max-width: 37.5rem) {
-    .Main {}
-} */
+@media only screen and (max-width: 600px) {
+    .Main {
+    }
+  }
